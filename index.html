@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Шеннон-Фано</title>
+
+    <link rel="stylesheet" href="./library/styles/style.css">
+  </head>
+
+
+
+  <body>
+    <main>
+      <div class="shannon-fano">
+        <h1>Код Шеннона-Фано</h1>
+
+        <div class="input-group">
+          <input class="text" type="text" placeholder="Ввод">
+
+        </div>
+
+        <div class="compress">
+          <table>
+            <tr>
+              <th>Символ</th>
+              <th>Вероятность</th>
+              <th>Код</th>
+              <th>Длина кода</th>
+              <th>p<sub>i</sub>q<sub>i</sub></th>
+              <th>-p<sub>i</sub>log<sub>2</sub>p<sub>i</sub></th>
+            </tr>
+          </table>
+          
+          <p class="entropy"></p>
+          <p class="code-optimal">Оптимальность кода: <span></span></p>
+        </div>
+
+        <div class="decompress">
+          <p></p>
+        </div>
+
+        <a class="download">Загрузить результат</a>
+      </div>  
+    </main>
+
+    <script src="./library/scripts/common.js"></script>
+  </body>
+</html>
